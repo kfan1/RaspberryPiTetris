@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RaspberryPiTetris", "RaspberryPiTetris.vcxproj", "{EF07D91A-20EE-42BC-9567-82A268B1CD60}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDL", "SDL-release-3.2.26\VisualC\SDL\SDL.vcxproj", "{81CE8DAF-EBB2-4761-8E45-B71ABCCA8C68}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDL3", "SDL-release-3.2.26\VisualC\SDL\SDL.vcxproj", "{81CE8DAF-EBB2-4761-8E45-B71ABCCA8C68}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDL3_ttf", "SDL_ttf-preview-3.1.0\VisualC\SDL_ttf.vcxproj", "{DDDBD07D-DC76-4AF6-8D02-3E2DEB6EE255}"
 EndProject
