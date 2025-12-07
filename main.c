@@ -252,15 +252,19 @@ static SDL_AppResult handle_key_event_(TetrisContext* t_ctx, TetrisBoard* b_ctx,
         }
         break;
     case SDL_SCANCODE_RIGHT:
+    case SDL_SCANCODE_L:
         move_right(t_ctx);
         break;
     case SDL_SCANCODE_UP:
+    case SDL_SCANCODE_I:
         rotate_shape(t_ctx);
         break;
     case SDL_SCANCODE_LEFT:
+    case SDL_SCANCODE_J:
         move_left(t_ctx);
         break;
     case SDL_SCANCODE_DOWN:
+    case SDL_SCANCODE_K:
         move_down(t_ctx);
         break;
     case SDL_SCANCODE_SPACE:
