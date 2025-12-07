@@ -57,7 +57,7 @@ typedef struct {
     int score;
     int currentHold;
     int gameOver;
-} TetrisBoard;
+} BoardContext;
 
 typedef struct
 {
@@ -65,7 +65,7 @@ typedef struct
     SDL_Renderer* renderer;
     SDL_Texture* texture;
     TetrisContext tetris_ctx;
-    TetrisBoard board_ctx;
+    BoardContext board_ctx;
     Uint64 last_step;
 } AppState;
 

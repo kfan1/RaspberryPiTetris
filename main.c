@@ -3,7 +3,7 @@
 #define SDL_MAIN_USE_CALLBACKS 1 /* use the callbacks instead of main() */
 #include "definitions.h"
 
-void board_initialize(TetrisBoard* ctx);
+void board_initialize(BoardContext* ctx);
 void tetris_initialize(TetrisContext* ctx, int hold);
 void block_step(TetrisContext* ctx);
 void set_rect_xy_(SDL_FRect* r, short x, short y);
@@ -14,11 +14,11 @@ void rotate_shape(TetrisContext* ctx);
 bool detect_left_right_collision(int x);
 bool detect_rotate_left_collision(int x);
 bool detect_rotate_right_collision(int x);
-bool detect_bottom_collision(int x, int y, TetrisBoard* b_ctx);
-void lock_shape(TetrisContext* t_ctx, TetrisBoard* b_ctx);
-void clear_rows(TetrisBoard* b_ctx);
-void hard_drop(TetrisContext* t_ctx, TetrisBoard* b_ctx);
-void hold_piece(TetrisContext* t_ctx, TetrisBoard* b_ctx);
+bool detect_bottom_collision(int x, int y, BoardContext* b_ctx);
+void lock_shape(TetrisContext* t_ctx, BoardContext* b_ctx);
+void clear_rows(BoardContext* b_ctx);
+void hard_drop(TetrisContext* t_ctx, BoardContext* b_ctx);
+void hold_piece(TetrisContext* t_ctx, BoardContext* b_ctx);
 
 static TTF_Font* font = NULL;
 
@@ -74,7 +74,7 @@ SDL_AppResult SDL_AppIterate(void* appstate) {
     AppState* as = (AppState*)appstate;
     const Uint64 now = SDL_GetTicks();
     TetrisContext* t_ctx = &as->tetris_ctx;
-    TetrisBoard* b_ctx = &as->board_ctx;
+    BoardContext* b_ctx = &as->board_ctx;
     int x, y;
 
     // Each tetris piece is made of 4 rectangles
@@ -237,7 +237,7 @@ SDL_AppResult SDL_AppIterate(void* appstate) {
     return SDL_APP_CONTINUE;
 }
 
-static SDL_AppResult handle_key_event_(TetrisContext* t_ctx, TetrisBoard* b_ctx, SDL_Scancode key_code) {
+static SDL_AppResult handle_key_event_(TetrisContext* t_ctx, BoardContext* b_ctx, SDL_Scancode key_code) {
     switch (key_code) {
         /* Quit. */
         // @todo pause game
@@ -281,7 +281,7 @@ static SDL_AppResult handle_key_event_(TetrisContext* t_ctx, TetrisBoard* b_ctx,
 
 SDL_AppResult SDL_AppEvent(void* appstate, SDL_Event* event) {
     TetrisContext* t_ctx = &((AppState*)appstate)->tetris_ctx;
-    TetrisBoard* b_ctx = &((AppState*)appstate)->board_ctx;
+    BoardContext* b_ctx = &((AppState*)appstate)->board_ctx;
     switch (event->type) {
     case SDL_EVENT_QUIT:
         return SDL_APP_SUCCESS;
@@ -302,7 +302,7 @@ void SDL_AppQuit(void* appstate, SDL_AppResult result) {
     }
 }
 
-void board_initialize(TetrisBoard* ctx) {
+void board_initialize(BoardContext* ctx) {
     for (int i = 0; i < 10; i++) {
         for (int j = 0; j < 20; j++) {
             for (int k = 0; k < 3; k++) {
@@ -392,7 +392,7 @@ void rotate_shape(TetrisContext* ctx) {
     }
 }
 
-void hard_drop(TetrisContext* t_ctx, TetrisBoard* b_ctx) {
+void hard_drop(TetrisContext* t_ctx, BoardContext* b_ctx) {
     int x, y;
     bool cont = true;
     while (cont) {
@@ -405,7 +405,7 @@ void hard_drop(TetrisContext* t_ctx, TetrisBoard* b_ctx) {
     }
 }
 
-void hold_piece(TetrisContext* t_ctx, TetrisBoard* b_ctx) {
+void hold_piece(TetrisContext* t_ctx, BoardContext* b_ctx) {
     if (b_ctx->currentHold == 7) {
         b_ctx->currentHold = t_ctx->currentShape;
         tetris_initialize(t_ctx, 7);
@@ -438,7 +438,7 @@ bool detect_rotate_right_collision(int x) {
     return false;
 }
 
-bool detect_bottom_collision(int x, int y, TetrisBoard* b_ctx) {
+bool detect_bottom_collision(int x, int y, BoardContext* b_ctx) {
     if (y > 22) {
         return true;
     }
@@ -448,7 +448,7 @@ bool detect_bottom_collision(int x, int y, TetrisBoard* b_ctx) {
     return false;
 }
 
-void lock_shape(TetrisContext* t_ctx, TetrisBoard* b_ctx) {
+void lock_shape(TetrisContext* t_ctx, BoardContext* b_ctx) {
     int x, y;
     for (int i = 0; i < 4; i++) {
         x = t_ctx->shape[i * 2] + t_ctx->xpos;
@@ -460,7 +460,7 @@ void lock_shape(TetrisContext* t_ctx, TetrisBoard* b_ctx) {
     }
 }
 
-void clear_rows(TetrisBoard* b_ctx) {
+void clear_rows(BoardContext* b_ctx) {
     bool full_row;
     // if 4 rows cleared at a time, tetris, double points
     int rows_cleared = 0;
