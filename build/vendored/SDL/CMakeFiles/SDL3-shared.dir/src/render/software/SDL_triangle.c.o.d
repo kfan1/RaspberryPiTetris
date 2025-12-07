@@ -1,0 +1,20 @@
+vendored/SDL/CMakeFiles/SDL3-shared.dir/src/render/software/SDL_triangle.c.o: \
+ /home/kevinlifan/SWENG452W/RaspberryPiTetris/vendored/SDL/src/render/software/SDL_triangle.c \
+ /usr/include/stdc-predef.h \
+ /home/kevinlifan/SWENG452W/RaspberryPiTetris/vendored/SDL/src/SDL_internal.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/12/include/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/12/include/syslimits.h \
+ /usr/include/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/libc-header-start.h \
+ /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthread_stack_min-dynamic.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/uio_lim.h \
+ /home/kevinlifan/SWENG452W/RaspberryPiTetris/vendored/SDL/src/render/software/SDL_triangle.h \
+ /home/kevinlifan/SWENG452W/RaspberryPiTetris/vendored/SDL/src/render/software/../../video/SDL_surface_c.h \
+ /home/kevinlifan/SWENG452W/RaspberryPiTetris/vendored/SDL/src/render/software/../../video/SDL_blit.h

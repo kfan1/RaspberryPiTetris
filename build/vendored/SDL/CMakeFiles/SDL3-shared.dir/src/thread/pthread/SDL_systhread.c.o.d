@@ -1,0 +1,100 @@
+vendored/SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o: \
+ /home/kevinlifan/SWENG452W/RaspberryPiTetris/vendored/SDL/src/thread/pthread/SDL_systhread.c \
+ /usr/include/stdc-predef.h \
+ /home/kevinlifan/SWENG452W/RaspberryPiTetris/vendored/SDL/src/SDL_internal.h \
+ /usr/include/pthread.h /usr/include/features.h /usr/include/sched.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/12/include/stddef.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/time_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/struct_timespec.h \
+ /usr/include/arm-linux-gnueabihf/bits/sched.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/struct_sched_param.h \
+ /usr/include/arm-linux-gnueabihf/bits/cpu-set.h /usr/include/time.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/bits/timex.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/struct_timeval.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/clock_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/struct_tm.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/clockid_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/timer_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/struct_itimerspec.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/locale_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/arm-linux-gnueabihf/bits/setjmp.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/__sigset_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthread_stack_min-dynamic.h \
+ /usr/include/signal.h \
+ /usr/include/arm-linux-gnueabihf/bits/signum-generic.h \
+ /usr/include/arm-linux-gnueabihf/bits/signum-arch.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/sig_atomic_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/sigset_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/siginfo_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/__sigval_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/siginfo-arch.h \
+ /usr/include/arm-linux-gnueabihf/bits/siginfo-consts.h \
+ /usr/include/arm-linux-gnueabihf/bits/siginfo-consts-arch.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/sigval_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/sigevent_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigevent-consts.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigaction.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigcontext.h \
+ /usr/lib/linux/uapi/arm/asm/sigcontext.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/stack_t.h \
+ /usr/include/arm-linux-gnueabihf/sys/ucontext.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigstack.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigstksz.h /usr/include/unistd.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix_opt.h \
+ /usr/include/arm-linux-gnueabihf/bits/environments.h \
+ /usr/include/arm-linux-gnueabihf/bits/confname.h \
+ /usr/include/arm-linux-gnueabihf/bits/getopt_posix.h \
+ /usr/include/arm-linux-gnueabihf/bits/getopt_core.h \
+ /usr/include/arm-linux-gnueabihf/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h \
+ /usr/include/arm-linux-gnueabihf/bits/ss_flags.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/struct_sigstack.h \
+ /usr/include/arm-linux-gnueabihf/bits/sigthread.h \
+ /usr/include/arm-linux-gnueabihf/bits/signal_ext.h /usr/include/errno.h \
+ /usr/include/arm-linux-gnueabihf/bits/errno.h /usr/include/linux/errno.h \
+ /usr/lib/linux/uapi/arm/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/error_t.h \
+ /usr/include/arm-linux-gnueabihf/sys/time.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/sys/resource.h \
+ /usr/include/arm-linux-gnueabihf/bits/resource.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/struct_rusage.h \
+ /usr/include/arm-linux-gnueabihf/sys/syscall.h \
+ /usr/lib/linux/uapi/arm/asm/unistd.h \
+ /usr/lib/linux/uapi/arm/asm/unistd-eabi.h \
+ /usr/include/arm-linux-gnueabihf/bits/syscall.h \
+ /home/kevinlifan/SWENG452W/RaspberryPiTetris/vendored/SDL/src/thread/pthread/../../core/linux/SDL_dbus.h \
+ /usr/include/dbus-1.0/dbus/dbus.h \
+ /usr/lib/arm-linux-gnueabihf/dbus-1.0/include/dbus/dbus-arch-deps.h \
+ /usr/include/dbus-1.0/dbus/dbus-macros.h \
+ /usr/include/dbus-1.0/dbus/dbus-address.h \
+ /usr/include/dbus-1.0/dbus/dbus-types.h \
+ /usr/include/dbus-1.0/dbus/dbus-errors.h \
+ /usr/include/dbus-1.0/dbus/dbus-protocol.h \
+ /usr/include/dbus-1.0/dbus/dbus-bus.h \
+ /usr/include/dbus-1.0/dbus/dbus-connection.h \
+ /usr/include/dbus-1.0/dbus/dbus-memory.h \
+ /usr/include/dbus-1.0/dbus/dbus-message.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/12/include/stdarg.h \
+ /usr/include/dbus-1.0/dbus/dbus-shared.h \
+ /usr/include/dbus-1.0/dbus/dbus-misc.h \
+ /usr/include/dbus-1.0/dbus/dbus-pending-call.h \
+ /usr/include/dbus-1.0/dbus/dbus-server.h \
+ /usr/include/dbus-1.0/dbus/dbus-signature.h \
+ /usr/include/dbus-1.0/dbus/dbus-syntax.h \
+ /usr/include/dbus-1.0/dbus/dbus-threads.h /usr/include/dlfcn.h \
+ /usr/include/arm-linux-gnueabihf/bits/dlfcn.h \
+ /usr/include/arm-linux-gnueabihf/bits/dl_find_object.h \
+ /home/kevinlifan/SWENG452W/RaspberryPiTetris/vendored/SDL/src/thread/pthread/../SDL_thread_c.h \
+ /home/kevinlifan/SWENG452W/RaspberryPiTetris/vendored/SDL/src/thread/pthread/../pthread/SDL_systhread_c.h \
+ /home/kevinlifan/SWENG452W/RaspberryPiTetris/vendored/SDL/src/thread/pthread/../../SDL_error_c.h \
+ /home/kevinlifan/SWENG452W/RaspberryPiTetris/vendored/SDL/src/thread/pthread/../../SDL_internal.h \
+ /home/kevinlifan/SWENG452W/RaspberryPiTetris/vendored/SDL/src/thread/pthread/../SDL_systhread.h \
+ /home/kevinlifan/SWENG452W/RaspberryPiTetris/vendored/SDL/src/thread/pthread/../SDL_thread_c.h

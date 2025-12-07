@@ -1,0 +1,72 @@
+vendored/SDL_ttf/external/plutovg-build/CMakeFiles/plutovg.dir/source/plutovg-blend.c.o: \
+ /home/kevinlifan/SWENG452W/RaspberryPiTetris/vendored/SDL_ttf/external/plutovg/source/plutovg-blend.c \
+ /usr/include/stdc-predef.h \
+ /home/kevinlifan/SWENG452W/RaspberryPiTetris/vendored/SDL_ttf/external/plutovg/source/plutovg-private.h \
+ /home/kevinlifan/SWENG452W/RaspberryPiTetris/vendored/SDL_ttf/external/plutovg/include/plutovg.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/12/include/stdbool.h \
+ /home/kevinlifan/SWENG452W/RaspberryPiTetris/vendored/SDL_ttf/external/plutovg/source/plutovg-utils.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/12/include/stdint.h \
+ /usr/include/stdint.h \
+ /usr/include/arm-linux-gnueabihf/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/bits/timesize.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/long-double.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h \
+ /usr/include/arm-linux-gnueabihf/bits/time64.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdint-intn.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdint-uintn.h \
+ /usr/include/stdlib.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/12/include/stddef.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/arm-linux-gnueabihf/bits/floatn.h \
+ /usr/include/arm-linux-gnueabihf/bits/floatn-common.h \
+ /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/clock_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/clockid_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/time_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/timer_t.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/endianness.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/uintn-identity.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/sigset_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/__sigset_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/struct_timeval.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/struct_timespec.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/arm-linux-gnueabihf/bits/thread-shared-types.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes-arch.h \
+ /usr/include/arm-linux-gnueabihf/bits/atomic_wide_counter.h \
+ /usr/include/arm-linux-gnueabihf/bits/struct_mutex.h \
+ /usr/include/arm-linux-gnueabihf/bits/struct_rwlock.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/string.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/locale_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/__locale_t.h \
+ /usr/include/strings.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/12/include/float.h /usr/include/math.h \
+ /usr/include/arm-linux-gnueabihf/bits/math-vector.h \
+ /usr/include/arm-linux-gnueabihf/bits/libm-simd-decl-stubs.h \
+ /usr/include/arm-linux-gnueabihf/bits/flt-eval-method.h \
+ /usr/include/arm-linux-gnueabihf/bits/fp-logb.h \
+ /usr/include/arm-linux-gnueabihf/bits/fp-fast.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathcalls-helper-functions.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathcalls.h /usr/include/assert.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/12/include/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/12/include/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthread_stack_min-dynamic.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthread_stack_min.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h

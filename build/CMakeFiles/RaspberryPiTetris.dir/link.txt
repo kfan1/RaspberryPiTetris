@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/RaspberryPiTetris.dir/main.c.o -o RaspberryPiTetris  -Wl,-rpath,/home/kevinlifan/SWENG452W/RaspberryPiTetris/build libSDL3_ttf.so.0.3.0 libSDL3.so.0.3.5 
