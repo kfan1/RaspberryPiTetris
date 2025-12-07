@@ -35,7 +35,7 @@ SDL_AppResult SDL_AppInit(void** appstate, int argc, char* argv[]) {
         return SDL_APP_FAILURE;
     }
 
-    font = TTF_OpenFontIO(SDL_IOFromConstMem(tiny_ttf, tiny_ttf_len), true, 18.0f);
+    font = TTF_OpenFontIO(SDL_IOFromConstMem(tiny_ttf, tiny_ttf_len), true, 60.0f);
 
     AppState* as = (AppState*)SDL_calloc(1, sizeof(AppState));
     if (!as) {
@@ -171,8 +171,8 @@ SDL_AppResult SDL_AppIterate(void* appstate) {
         // center text
         dst.x = GAME_WIDTH / 3 * BLOCK_SIZE_IN_PIXELS;
         dst.y = BLOCK_SIZE_IN_PIXELS;
-        dst.h = BLOCK_SIZE_IN_PIXELS;
-        dst.w = BLOCK_SIZE_IN_PIXELS * 2;
+        dst.h = BLOCK_SIZE_IN_PIXELS * 2;
+        dst.w = BLOCK_SIZE_IN_PIXELS * 5;
 
         // write the score
         SDL_RenderTexture(as->renderer, as->texture, NULL, &dst);
@@ -198,10 +198,10 @@ SDL_AppResult SDL_AppIterate(void* appstate) {
         }
 
         // center text
-        gameOver.x = (GAME_WIDTH / 2 - 5) * BLOCK_SIZE_IN_PIXELS;
+        gameOver.x = (GAME_WIDTH / 2 - 11) * BLOCK_SIZE_IN_PIXELS;
         gameOver.y = BLOCK_SIZE_IN_PIXELS * 3;
-        gameOver.h = BLOCK_SIZE_IN_PIXELS * 5;
-        gameOver.w = BLOCK_SIZE_IN_PIXELS * 10;
+        gameOver.h = BLOCK_SIZE_IN_PIXELS * 8;
+        gameOver.w = BLOCK_SIZE_IN_PIXELS * 22;
 
         // write the score
         SDL_RenderTexture(as->renderer, as->texture, NULL, &gameOver);
@@ -223,10 +223,10 @@ SDL_AppResult SDL_AppIterate(void* appstate) {
         }
 
         // center text
-        dst.x = (GAME_WIDTH / 2 - 2) * BLOCK_SIZE_IN_PIXELS;
-        dst.y = BLOCK_SIZE_IN_PIXELS * 7;
-        dst.h = BLOCK_SIZE_IN_PIXELS * 3;
-        dst.w = BLOCK_SIZE_IN_PIXELS * 4;
+        dst.x = (GAME_WIDTH / 2 - 7) * BLOCK_SIZE_IN_PIXELS;
+        dst.y = BLOCK_SIZE_IN_PIXELS * 12;
+        dst.h = BLOCK_SIZE_IN_PIXELS * 6;
+        dst.w = BLOCK_SIZE_IN_PIXELS * 15;
 
         // write the score
         SDL_RenderTexture(as->renderer, as->texture, NULL, &dst);
