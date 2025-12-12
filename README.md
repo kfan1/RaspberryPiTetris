@@ -1,3 +1,5 @@
+Clone and see additional information on https://github.com/kfan1/RaspberryPiTetris.
+
 ## Running on Raspberry Pi
 RaspberryPiTetris executable file already in build folder.
 
